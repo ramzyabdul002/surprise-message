@@ -1,0 +1,39 @@
+body {
+  display: grid;
+  justify-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  height: 50%;
+}
+
+.awesome {
+  margin-bottom: 20px;
+  font-size: 25px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-out;
+}
+
+.esc {
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.press {
+  border: none;
+  background-color: burlywood;
+  padding: 10px 8px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
